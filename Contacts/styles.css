@@ -1,0 +1,41 @@
+body {
+    background: rbg(58, 58, 58);
+    color: white;
+    font-family: Helvetica Neue, Helvetica, Arial;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: black;
+    padding: 20px;
+}
+section {
+    background: white;
+    color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+div {
+    background: pink;
+    width: 100px;
+    margin: auto;
+    text-align: center;
+    border-radius: 20px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+footer {
+    background: black;
+    padding: 10px 20px;
+}
+a {
+    color: white;
+}
